@@ -40,11 +40,3 @@ function div(a, b) {
     resultado.textContent = a / b;
 }
 
-let idioma = document.getElementById("idioma")
-idioma.addEventListener("change", function () {
-        if (this.value == "br") {
-            btSoma.value = "Somar";
-        } else if (this.value == "es") {
-            btSoma.value = "Sumar";
-        }
-    })
